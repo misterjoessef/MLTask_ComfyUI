@@ -4,7 +4,7 @@ import io
 from datetime import datetime
 import textwrap
 import string
-from Common.Utils import (
+from ..Common.Utils import (
     get_system_font_files,
     images_data_to_tensor,
 )
