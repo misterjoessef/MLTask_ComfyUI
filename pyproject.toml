@@ -1,0 +1,15 @@
+[project]
+name = "mltask_comfyui"
+description = ""
+version = "1.0.1"
+license = "LICENSE"
+dependencies = ["requests", "aiohttp"]
+
+[project.urls]
+Repository = "https://github.com/misterjoessef/MLTask_ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "mltask"
+DisplayName = "MLTask_ComfyUI"
+Icon = "https://mltask.com/images/android-chrome-512x512.png"
