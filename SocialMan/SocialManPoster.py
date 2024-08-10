@@ -241,11 +241,11 @@ def create_post(
     if is_image(file_path):
         # youtube doesnt support community image posting through api at the moment
         youtube_data = {}
-        if "thumbnail" in facebook_data:
+        if facebook_data and "thumbnail" in facebook_data:
             del facebook_data["thumbnail"]
-        if "thumbnail" in instagram_data:
+        if instagram_data and "thumbnail" in instagram_data:
             del instagram_data["thumbnail"]
-        if "thumbnail" in pinterest_data:
+        if pinterest_data and "thumbnail" in pinterest_data:
             del pinterest_data["thumbnail"]
 
     auth_token = base64.b64encode(
