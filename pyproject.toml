@@ -2,7 +2,7 @@
 name = "mltask_comfyui"
 description = "a set of nodes to help u run ai code using MLTask"
 version = "1.0.2"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["requests", "aiohttp"]
 
 [project.urls]
