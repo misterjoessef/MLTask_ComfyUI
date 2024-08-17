@@ -1,0 +1,1015 @@
+{
+  "last_node_id": 177,
+  "last_link_id": 186,
+  "nodes": [
+    {
+      "id": 158,
+      "type": "LinkedinPosterData",
+      "pos": [
+        910,
+        -170
+      ],
+      "size": {
+        "0": 210,
+        "1": 76.00000762939453
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "linkedin_data",
+          "type": "MLT_SM_LINKEDIN_DATA",
+          "links": [
+            183
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LinkedinPosterData"
+      },
+      "widgets_values": [
+        "linkedin caption"
+      ]
+    },
+    {
+      "id": 157,
+      "type": "TwitterPosterData",
+      "pos": [
+        910,
+        -300
+      ],
+      "size": {
+        "0": 210,
+        "1": 76
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "twitter_data",
+          "type": "MLT_SM_TWITTER_DATA",
+          "links": [
+            182
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TwitterPosterData"
+      },
+      "widgets_values": [
+        "twitter caption1"
+      ]
+    },
+    {
+      "id": 145,
+      "type": "SocialManPostData",
+      "pos": [
+        895,
+        -1561
+      ],
+      "size": {
+        "0": 210,
+        "1": 126
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "social_man_data",
+          "type": "MLT_SM_POST_DATA",
+          "links": [
+            165
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SocialManPostData"
+      },
+      "widgets_values": [
+        "post Title",
+        "post description"
+      ]
+    },
+    {
+      "id": 153,
+      "type": "TiktokPosterData",
+      "pos": [
+        810,
+        -1370
+      ],
+      "size": {
+        "0": 371.8104553222656,
+        "1": 318
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "tiktok_data",
+          "type": "MLT_SM_TIKTOK_DATA",
+          "links": [
+            180
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TiktokPosterData"
+      },
+      "widgets_values": [
+        "tiktok caption",
+        "Title (for photo posts only)",
+        0.5,
+        "PUBLIC_TO_EVERYONE",
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 161,
+      "type": "LoadImage",
+      "pos": [
+        500,
+        -1233
+      ],
+      "size": {
+        "0": 210,
+        "1": 314
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            152
+          ],
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "example.png",
+        "image"
+      ]
+    },
+    {
+      "id": 164,
+      "type": "LoadImage",
+      "pos": [
+        496,
+        -859
+      ],
+      "size": {
+        "0": 210,
+        "1": 314
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            155
+          ],
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "example.png",
+        "image"
+      ]
+    },
+    {
+      "id": 166,
+      "type": "LoadImage",
+      "pos": [
+        497,
+        -509
+      ],
+      "size": {
+        "0": 215.0010986328125,
+        "1": 314
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            157
+          ],
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "example.png",
+        "image"
+      ]
+    },
+    {
+      "id": 169,
+      "type": "LoadImage",
+      "pos": [
+        509,
+        -150
+      ],
+      "size": {
+        "0": 210,
+        "1": 314
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            160
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "example.png",
+        "image"
+      ]
+    },
+    {
+      "id": 152,
+      "type": "VHS_LoadVideoPath",
+      "pos": [
+        129,
+        618
+      ],
+      "size": [
+        315,
+        238
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            143
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadVideoPath"
+      },
+      "widgets_values": {
+        "video": "input/1.mp4",
+        "force_rate": 0,
+        "force_size": "Disabled",
+        "custom_width": 512,
+        "custom_height": 512,
+        "frame_load_cap": 0,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "frame_load_cap": 0,
+            "skip_first_frames": 0,
+            "force_rate": 0,
+            "filename": "input/1.mp4",
+            "type": "path",
+            "format": "video/mp4",
+            "select_every_nth": 1
+          }
+        }
+      }
+    },
+    {
+      "id": 150,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        502,
+        620
+      ],
+      "size": [
+        235.10916137695312,
+        310
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 143,
+          "slot_index": 0
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": [
+            177
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 8,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": true,
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00004.mp4",
+            "subfolder": "",
+            "type": "output",
+            "format": "video/h264-mp4",
+            "frame_rate": 8
+          }
+        }
+      }
+    },
+    {
+      "id": 173,
+      "type": "SocialManPoster",
+      "pos": [
+        1288,
+        -474
+      ],
+      "size": {
+        "0": 304.0067138671875,
+        "1": 314
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "post_data",
+          "type": "MLT_SM_POST_DATA",
+          "link": 165,
+          "slot_index": 0
+        },
+        {
+          "name": "tiktok_data",
+          "type": "MLT_SM_TIKTOK_DATA",
+          "link": 180,
+          "slot_index": 1
+        },
+        {
+          "name": "youtube_data",
+          "type": "MLT_SM_YOUTUBE_DATA",
+          "link": 179,
+          "slot_index": 2
+        },
+        {
+          "name": "facebook_data",
+          "type": "MLT_SM_FACEBOOK_DATA",
+          "link": 168
+        },
+        {
+          "name": "instagram_data",
+          "type": "MLT_SM_INSTAGRAM_DATA",
+          "link": 181,
+          "slot_index": 4
+        },
+        {
+          "name": "twitter_data",
+          "type": "MLT_SM_TWITTER_DATA",
+          "link": 182,
+          "slot_index": 5
+        },
+        {
+          "name": "linkedin_data",
+          "type": "MLT_SM_LINKEDIN_DATA",
+          "link": 183,
+          "slot_index": 6
+        },
+        {
+          "name": "pinterest_data",
+          "type": "MLT_SM_PINTEREST_DATA",
+          "link": 184,
+          "slot_index": 7
+        },
+        {
+          "name": "media_file_path",
+          "type": "STRING",
+          "link": 178,
+          "widget": {
+            "name": "media_file_path"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "post_link",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SocialManPoster"
+      },
+      "widgets_values": [
+        "put your token here and DO NOT SHARE IT WITH ANYONE",
+        "use media to poster node",
+        true,
+        false
+      ]
+    },
+    {
+      "id": 167,
+      "type": "PinterestPosterData",
+      "pos": [
+        890,
+        -50
+      ],
+      "size": [
+        254.16148920560045,
+        174
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pin_thumbnail",
+          "type": "IMAGE",
+          "link": 160,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pinterest_data",
+          "type": "MLT_SM_PINTEREST_DATA",
+          "links": [
+            184
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PinterestPosterData"
+      },
+      "widgets_values": [
+        null,
+        "Pinterest Title",
+        "Pinterest Description",
+        ""
+      ]
+    },
+    {
+      "id": 165,
+      "type": "InstagramPosterData",
+      "pos": [
+        880,
+        -480
+      ],
+      "size": {
+        "0": 253.60000610351562,
+        "1": 124
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "insta_thumbnail",
+          "type": "IMAGE",
+          "link": 157,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "instagram_data",
+          "type": "MLT_SM_INSTAGRAM_DATA",
+          "links": [
+            181
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "InstagramPosterData"
+      },
+      "widgets_values": [
+        null,
+        "instagram caption",
+        true
+      ]
+    },
+    {
+      "id": 162,
+      "type": "FacebookPosterData",
+      "pos": [
+        902,
+        -672
+      ],
+      "size": {
+        "0": 220,
+        "1": 124
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "fb_thumbnail",
+          "type": "IMAGE",
+          "link": 155,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "facebook_data",
+          "type": "MLT_SM_FACEBOOK_DATA",
+          "links": [
+            168
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FacebookPosterData"
+      },
+      "widgets_values": [
+        null,
+        "facebook caption",
+        true
+      ]
+    },
+    {
+      "id": 160,
+      "type": "YoutubePosterData",
+      "pos": [
+        904,
+        -986
+      ],
+      "size": [
+        222.950350723464,
+        248
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "yt_thumbnail",
+          "type": "IMAGE",
+          "link": 152,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "youtube_data",
+          "type": "MLT_SM_YOUTUBE_DATA",
+          "links": [
+            179
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "YoutubePosterData"
+      },
+      "widgets_values": [
+        null,
+        "youtube title",
+        "youtube description",
+        "tag1, tag2",
+        "public",
+        "Entertainment"
+      ]
+    },
+    {
+      "id": 170,
+      "type": "SocialManMediaToPoster",
+      "pos": [
+        690,
+        275
+      ],
+      "size": {
+        "0": 430.8000183105469,
+        "1": 78
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 185
+        },
+        {
+          "name": "video_combine_filenames",
+          "type": "VHS_FILENAMES",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image_path",
+          "type": "STRING",
+          "links": [
+            178
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SocialManMediaToPoster"
+      },
+      "widgets_values": [
+        "example.png"
+      ]
+    },
+    {
+      "id": 176,
+      "type": "MLTaskUtilsTextImageGenerator",
+      "pos": [
+        120,
+        265
+      ],
+      "size": {
+        "0": 400,
+        "1": 280.0000305175781
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "text_image",
+          "type": "IMAGE",
+          "links": [
+            185,
+            186
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "text_image_mask",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "text_image_inverted",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "text_image_mask_inverted",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MLTaskUtilsTextImageGenerator"
+      },
+      "widgets_values": [
+        "Example Workflow",
+        1920,
+        1080,
+        450,
+        "Academy Engraved LET Fonts.ttf",
+        0,
+        0
+      ]
+    },
+    {
+      "id": 177,
+      "type": "PreviewImage",
+      "pos": [
+        563,
+        419
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 186
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    }
+  ],
+  "links": [
+    [
+      143,
+      152,
+      0,
+      150,
+      0,
+      "IMAGE"
+    ],
+    [
+      152,
+      161,
+      0,
+      160,
+      0,
+      "IMAGE"
+    ],
+    [
+      155,
+      164,
+      0,
+      162,
+      0,
+      "IMAGE"
+    ],
+    [
+      157,
+      166,
+      0,
+      165,
+      0,
+      "IMAGE"
+    ],
+    [
+      160,
+      169,
+      0,
+      167,
+      0,
+      "IMAGE"
+    ],
+    [
+      165,
+      145,
+      0,
+      173,
+      0,
+      "MLT_SM_POST_DATA"
+    ],
+    [
+      168,
+      162,
+      0,
+      173,
+      3,
+      "MLT_SM_FACEBOOK_DATA"
+    ],
+    [
+      178,
+      170,
+      0,
+      173,
+      8,
+      "STRING"
+    ],
+    [
+      179,
+      160,
+      0,
+      173,
+      2,
+      "MLT_SM_YOUTUBE_DATA"
+    ],
+    [
+      180,
+      153,
+      0,
+      173,
+      1,
+      "MLT_SM_TIKTOK_DATA"
+    ],
+    [
+      181,
+      165,
+      0,
+      173,
+      4,
+      "MLT_SM_INSTAGRAM_DATA"
+    ],
+    [
+      182,
+      157,
+      0,
+      173,
+      5,
+      "MLT_SM_TWITTER_DATA"
+    ],
+    [
+      183,
+      158,
+      0,
+      173,
+      6,
+      "MLT_SM_LINKEDIN_DATA"
+    ],
+    [
+      184,
+      167,
+      0,
+      173,
+      7,
+      "MLT_SM_PINTEREST_DATA"
+    ],
+    [
+      185,
+      176,
+      0,
+      170,
+      0,
+      "IMAGE"
+    ],
+    [
+      186,
+      176,
+      0,
+      177,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Post Data",
+      "bounding": [
+        790,
+        -1638,
+        826,
+        1800
+      ],
+      "color": "#3f789e",
+      "font_size": 24
+    },
+    {
+      "title": "Content to share",
+      "bounding": [
+        58,
+        179,
+        1097,
+        806
+      ],
+      "color": "#b58b2a",
+      "font_size": 24
+    },
+    {
+      "title": "VHS",
+      "bounding": [
+        100,
+        622,
+        673,
+        350
+      ],
+      "color": "#b06634",
+      "font_size": 24
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.9194342495775807,
+      "offset": [
+        -1143.3677487502475,
+        424.2666916436068
+      ]
+    }
+  },
+  "version": 0.4
+}
